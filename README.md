@@ -117,3 +117,16 @@ CUDA_VISIBLE_DEVICES=0 python inference_instruction_guided.py
 ```
 
 As with image-guided transfer, the results will be saved in the `output/` folder.
+
+---
+
+---
+
+## 🙏 Acknowledgement
+
+Our code is built with reference to the following excellent projects. We sincerely thank the authors for their open-source contributions:
+
+- [x-flux](https://github.com/XLabs-AI/x-flux)
+- [UNO](https://github.com/bytedance/UNO/tree/main)
+
+Their work greatly inspired and supported the development of **OmniStyle**. 🔥
