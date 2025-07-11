@@ -29,7 +29,7 @@
   <a href="#">
     <img src="https://img.shields.io/badge/Dataset-Open-orange?style=flat-square"/>
   </a>
-  <a href="#">
+  <a href="https://huggingface.co/StyleXX/OmniStyle">
     <img src="https://img.shields.io/badge/HuggingFace-Model-yellow?style=flat-square"/>
   </a>
 </p>
