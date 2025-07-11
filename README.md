@@ -39,8 +39,15 @@
 
 ## 📢 News
 
-- **[2025.07.11]** 🎉 Code and model weights for **OmniStyle** are now available!
-- **[2025.07.05]** ✅ Released the [project page](https://wangyephd.github.io/projects/cvpr25_omnistyle.html).
+- **[2025.07.11]** Code and model weights for **OmniStyle** are now available!
+- **[2025.07.05]** Released the [project page](https://wangyephd.github.io/projects/cvpr25_omnistyle.html).
+
+
+<h2>🛠️ TODO List</h2>
+<ul>
+  <li>✅ Release <strong>Model weights</strong> and <strong>inference code</strong> for OmniStyle.</li>
+  <li>🔜 Release <strong>OmniStyle-150K</strong>: The filtered high-quality subset used for training.</li>
+</ul>
 
 
 
@@ -55,14 +62,6 @@
 
 
 ---
-<h2>🛠️ TODO List</h2>
-<ul>
-  <li>🔜 Release <strong>OmniStyle-150K</strong>: The filtered high-quality subset used for training.</li>
-  <li>🔜 Release <strong>Model weights</strong> and <strong>inference code</strong> for OmniStyle.</li>
-</ul>
-
----
-
 
 ## 🧩 Installation & Environment Setup
 
@@ -83,4 +82,38 @@ You can download the pretrained **OmniStyle** model from Hugging Face:
 
 👉 [https://huggingface.co/StyleXX/OmniStyle](https://huggingface.co/StyleXX/OmniStyle)
 
+After downloading, please place the `.safetensors` checkpoint file into the `./ckpts/` directory:
 
+
+In addition, you should download relevant model weights from FLUX-Dev:
+
+👉 [https://github.com/XLabs-AI/x-flux](https://github.com/XLabs-AI/x-flux)
+
+After downloading all weights, you need to specify the correct checkpoint paths in `test.sh`:
+
+---
+
+
+## 🖼️ Image-Guided Image Style Transfer
+
+We have provided example **style** and **content** images in the `test/` folder.
+
+To run image-guided stylization, simply execute:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python inference_img_guided.py
+```
+
+The generated results will be saved in the `output/` folder.
+
+---
+
+## ✏️ Instruction-Guided Image Style Transfer
+
+For instruction-guided stylization, just run:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python inference_instruction_guided.py
+```
+
+As with image-guided transfer, the results will be saved in the `output/` folder.
