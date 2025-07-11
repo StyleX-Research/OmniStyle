@@ -128,4 +128,5 @@ Our code is built with reference to the following excellent projects. We sincere
 
 - [x-flux](https://github.com/XLabs-AI/x-flux)
 - [UNO](https://github.com/bytedance/UNO/tree/main)
+
 Their work greatly inspired and supported the development of OmniStyle.
