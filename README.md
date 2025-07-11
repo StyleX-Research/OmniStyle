@@ -34,6 +34,17 @@
   </a>
 </p>
 
+
+---
+
+## 📢 News
+
+- **[2025.07.11]** 🎉 Code and model weights for **OmniStyle** are now available!
+- **[2025.07.05]** ✅ Released the [project page](https://wangyephd.github.io/projects/cvpr25_omnistyle.html).
+
+
+
+
 ---
 
 🤖 <strong>OmniStyle</strong> is the first end-to-end style transfer framework based on the Diffusion Transformer (DiT) architecture, achieving high-quality 1K-resolution stylization by leveraging the large-scale, filtered OmniStyle-1M dataset. It supports both instruction- and image-guided stylization, enabling efficient and versatile style transfer across diverse styles.
@@ -50,7 +61,26 @@
   <li>🔜 Release <strong>Model weights</strong> and <strong>inference code</strong> for OmniStyle.</li>
 </ul>
 
+---
 
 
+## 🧩 Installation & Environment Setup
+
+We recommend creating a clean conda environment:
+
+```bash
+conda create -n omnistyle python=3.10 
+conda activate omnistyle
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 📥 Checkpoints Download
+
+You can download the pretrained **OmniStyle** model from Hugging Face:
+
+👉 [https://huggingface.co/StyleXX/OmniStyle](https://huggingface.co/StyleXX/OmniStyle)
 
 
