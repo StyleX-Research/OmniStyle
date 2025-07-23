@@ -26,7 +26,7 @@
   <a href="https://arxiv.org/pdf/2505.14028">
     <img src="https://img.shields.io/badge/Paper-arXiv-green?style=flat-square"/>
   </a>
-  <a href="#">
+  <a href="https://huggingface.co/datasets/StyleXX/OmniStyle-150k">
     <img src="https://img.shields.io/badge/Dataset-Open-orange?style=flat-square"/>
   </a>
   <a href="https://huggingface.co/StyleXX/OmniStyle">
