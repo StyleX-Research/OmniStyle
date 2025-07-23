@@ -39,7 +39,8 @@
 
 ## 📢 News
 
-- **[2025.07.11]** Code and model weights for **OmniStyle** are now available!
+- **[2025.07.11]** **OmniStyle-150K** dataset is now available!
+- **[2025.07.11]** **Code and model weights** for OmniStyle are now available!
 - **[2025.07.05]** Released the [project page](https://wangyephd.github.io/projects/cvpr25_omnistyle.html).
 
 
