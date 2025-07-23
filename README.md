@@ -121,6 +121,19 @@ As with image-guided transfer, the results will be saved in the `output/` folder
 
 ---
 
+## 💻 Inference Memory Requirements
+
+OmniStyle supports high-resolution (1k) image stylization. Below are the typical GPU memory usages during inference:
+
+| Mode                  | Resolution | GPU Memory Usage | 
+|-----------------------|------------|------------------|
+| Image-Guided Transfer | 1024×1024  | ~46 GB           |
+| Instruction-Guided    | 1024×1024  | ~38 GB           |
+
+> 📌 *Note*: For stable inference, please ensure at least **48 GB** available GPU memory. 
+
+
+
 ---
 
 ## 🙏 Acknowledgement
