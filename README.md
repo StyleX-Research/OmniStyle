@@ -1,4 +1,4 @@
-<h1 align="center"><strong>OmniStyle: Filtering High Quality Style Transfer Data at Scale</strong></h1>
+<h2 align="center"><strong>OmniStyle: Filtering High Quality Style Transfer Data at Scale</strong></h2>
 
 <p align="center">
   <a href="https://wangyephd.github.io/">Ye Wang<sup>1</sup></a>,
