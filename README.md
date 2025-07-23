@@ -47,7 +47,7 @@
 <h2>🛠️ TODO List</h2>
 <ul>
   <li>✅ Release <strong>Model weights</strong> and <strong>inference code</strong> for OmniStyle.</li>
-  <li>🔜 Release <strong>OmniStyle-150K</strong>: The filtered high-quality subset used for training.</li>
+  <li>✅ Release <strong>OmniStyle-150K</strong>: The filtered high-quality subset used for training.</li>
 </ul>
 
 
